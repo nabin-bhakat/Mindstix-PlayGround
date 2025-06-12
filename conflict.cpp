@@ -211,6 +211,7 @@ void banner() {
 
 // Entry point
 int main() {
+    pause();
     banner();
     cout << "Enter your name: ";
     string name;
