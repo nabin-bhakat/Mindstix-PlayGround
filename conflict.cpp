@@ -209,8 +209,13 @@ void banner() {
     cout << "===========================\n";
 }
 
+void gitfun(){
+    cout << "I am writing this code in branch nabin-conflict";
+}
+
 // Entry point
 int main() {
+    gitfun();
     banner();
     cout << "Enter your name: ";
     string name;
@@ -218,8 +223,9 @@ int main() {
 
     Game game(name);
     game.mainLoop();
-
+    
     pause();
+    
     return 0;
 }
 
