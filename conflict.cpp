@@ -215,7 +215,7 @@ void gitfun(){
 
 // Entry point
 int main() {
-    gitfun();
+    pause();
     banner();
     cout << "Enter your name: ";
     string name;
